@@ -39,16 +39,17 @@ body {
 .list {
   list-style: none;
 }
-.page-nav .link {
-  font-family: "Roboto" sans-serif;
+.link {
+  text-decoration: none;
+}
+
+.menu-link {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
-  color: #434455;
-  list-style: none;
+  color: #2e2f42;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .list {
@@ -58,18 +59,13 @@ body {
   text-decoration: none;
 }
 
-.page-nav .link:hover,
-.page-nav .link:focus,
-.page-nav .link:active {
+.menu-link:hover,
+.menu-link:focus {
   color: #404bbf;
 }
 
 .address {
   font-style: normal;
-}
-
-.list {
-  list-style: none;
 }
 
 .address-list .link {
@@ -88,6 +84,9 @@ body {
   color: #404bbf;
 }
 
+.list {
+  list-style: none;
+}
 .link {
   text-decoration: none;
 }
@@ -104,7 +103,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .button-service {
@@ -129,10 +128,7 @@ body {
 /*Business characteristics*/
 
 .business {
-  background-color: #ffffff;
-}
-
-.business-list {
+  background-color: var(--white-color);
 }
 
 .list {
@@ -160,13 +156,10 @@ body {
 
 /*Our work*/
 .work {
-  background-color: #ffffff;
+  background-color: var(--white-color);
 }
 
-.work-list {
-}
-
-.title {
+.work-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -180,8 +173,19 @@ body {
 }
 
 /*Team*/
+
 .team {
   background-color: #f4f4fd;
+}
+
+.team-our-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
 }
 
 .team-title {
@@ -197,8 +201,8 @@ body {
   list-style: none;
 }
 
-.item {
-  background-color: #ffffff;
+.team-item {
+  background-color: var(--white-color);
 }
 
 .team-text {
@@ -226,7 +230,7 @@ body {
 /*Projects*/
 
 .projects {
-  background-color: #ffffff;
+  background-color: var(--white-color);
 }
 
 .projects.title {
@@ -234,7 +238,7 @@ body {
 }
 
 .button-list {
-  background-color: #ffffff;
+  background-color: var(--white-color);
 }
 .list {
   list-style: none;
@@ -255,10 +259,6 @@ body {
 .button-color:focus {
   color: #ffffff;
   background-color: #404bbf;
-}
-
-.card-list {
-  list-style: none;
 }
 
 .list {
