@@ -276,7 +276,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  initial-letter: 0.02em;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
