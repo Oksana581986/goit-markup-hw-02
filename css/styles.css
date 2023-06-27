@@ -13,6 +13,9 @@ body {
   --cloud-color: #f4f4fd;
   --navy-color: #2e2f42;
   --white-color: #ffffff;
+  --iris-color: #4d5ae5;
+  --ocean-color: #404bbf;
+  --slate-color: #434455;
 }
 
 /*Header container*/
@@ -22,18 +25,17 @@ body {
 }
 .logo.link {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: #4d5ae5;
+  color: var(--iris-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .logo-text {
-  color: #2e2f42;
+  color: var(--navy-color);
 }
 
 .list {
@@ -44,11 +46,10 @@ body {
 }
 
 .menu-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
-  color: #2e2f42;
+  color: var(--navy-color);
   letter-spacing: 0.02em;
 }
 
@@ -61,7 +62,7 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-  color: #404bbf;
+  color: var(--ocean-color);
 }
 
 .address {
@@ -72,8 +73,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
-  color: #434455;
+  color: var(--slate-color);
   text-decoration: none;
   list-style: none;
 }
@@ -81,7 +81,7 @@ body {
 .address-list .link:hover,
 .address-list .link:focus,
 .address-list .link:active {
-  color: #404bbf;
+  color: var(--ocean-color);
 }
 
 .list {
@@ -94,7 +94,7 @@ body {
 /*Solutions for bussiness*/
 
 .effective-solutions {
-  background-color: #2e2f42;
+  background-color: var(--navy-color);
 }
 
 .page-title {
@@ -111,18 +111,18 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background-color: #4d5ae5;
+  background-color: var(--iris-color);
   cursor: pointer;
   border: none;
   font-family: "Roboto", sans-serif;
 }
 .button-text {
-  color: #fff;
+  color: var(--white-color);
 }
 
 .button-service:hover,
 .button-service:focus {
-  background-color: #404bbf;
+  background-color: var(--ocean-color);
 }
 
 /*Business characteristics*/
@@ -144,14 +144,14 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--navy-color);
 }
 
 .business-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate-color);
 }
 
 /*Our work*/
@@ -166,7 +166,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  color: #2e2f42;
+  color: var(--navy-color);
 }
 .list {
   list-style: none;
@@ -175,7 +175,7 @@ body {
 /*Team*/
 
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--cloud-color);
 }
 
 .team-our-title {
@@ -185,7 +185,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  color: #2e2f42;
+  color: var(--navy-color);
 }
 
 .team-title {
@@ -194,7 +194,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;
+  color: var(--navy-color);
 }
 
 .list {
@@ -210,21 +210,21 @@ body {
   text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate-color);
 }
 
 /*Footer*/
 .page-footer {
-  background-color: #2e2f42;
+  background-color: var(--navy-color);
 }
 
 .footer-logo-text {
-  color: #f4f4fd;
+  color: var(--cloud-color);
 }
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
-  color: var(--cloud, #f4f4fd);
+  color: var(--cloud-color);
 }
 
 /*Projects*/
@@ -234,7 +234,7 @@ body {
 }
 
 .projects.title {
-  color: #2e2f42;
+  color: var(--navy-color);
 }
 
 .button-list {
@@ -250,15 +250,15 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--iris-color);
+  background-color: var(--cloud-color);
   cursor: pointer;
 }
 
 .button-color:hover,
 .button-color:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--white-color);
+  background-color: var(--ocean-color);
 }
 
 .list {
@@ -269,7 +269,7 @@ body {
   text-decoration: none;
 }
 .card-item {
-  background-color: var(--white-color, #fff);
+  background-color: var(--white-color);
 }
 
 .card-title {
@@ -277,12 +277,12 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--navy-color);
 }
 
 .card-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate-color);
 }
